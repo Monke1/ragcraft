@@ -9,6 +9,7 @@ setup(
     packages=find_packages(),
     python_requires=">=3.10",
     install_requires=[
+# todo: revisit later
         "openai>=1.0",
         "numpy>=1.24",
         "faiss-cpu>=1.7",
