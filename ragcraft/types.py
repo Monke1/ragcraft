@@ -20,6 +20,7 @@ class RetrievalResult(BaseModel):
     chunks: list[Chunk]
     scores: list[float]
 
+# todo: performance
 
 class GenerationResult(BaseModel):
     query: str
