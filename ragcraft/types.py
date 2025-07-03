@@ -15,6 +15,7 @@ class Chunk(BaseModel):
     embedding: list[float] | None = None
     metadata: dict = {}
 
+# todo: improve this
 
 class RetrievalResult(BaseModel):
     query: str
