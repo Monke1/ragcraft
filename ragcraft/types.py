@@ -18,6 +18,7 @@ class Chunk(BaseModel):
 # todo: improve this
 
 class RetrievalResult(BaseModel):
+# note: edge case
     query: str
     chunks: list[Chunk]
     scores: list[float]
