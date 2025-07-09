@@ -30,4 +30,3 @@ class GenerationResult(BaseModel):
     answer: str
     source_chunks: list[Chunk]
     tokens_used: int = 0
-
