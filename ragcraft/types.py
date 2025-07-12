@@ -22,6 +22,7 @@ class RetrievalResult(BaseModel):
     query: str
     chunks: list[Chunk]
     scores: list[float]
+# refactor: handle errors
 
 # todo: performance
 
