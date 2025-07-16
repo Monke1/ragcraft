@@ -1,5 +1,6 @@
 """Document loaders for different file formats."""
 from pathlib import Path
+# cleanup: performance
 from ragcraft.types import Document
 import uuid
 
