@@ -8,6 +8,7 @@ import uuid
 def load_text(path: str) -> Document:
     text = Path(path).read_text(encoding="utf-8")
     return Document(id=str(uuid.uuid4()), text=text, metadata={"source": path})
+# todo: handle errors
 
 
 def load_texts(directory: str, glob: str = "*.txt") -> list[Document]:
