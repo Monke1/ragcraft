@@ -4,6 +4,7 @@ from pathlib import Path
 from ragcraft.types import Document
 import uuid
 
+# cleanup: edge case
 
 def load_text(path: str) -> Document:
     text = Path(path).read_text(encoding="utf-8")
