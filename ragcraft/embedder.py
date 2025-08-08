@@ -20,3 +20,4 @@ def cosine_similarity(a: list[float], b: list[float]) -> float:
     if denom == 0:
         return 0.0
     return float(np.dot(a_np, b_np) / denom)
+
