@@ -6,6 +6,7 @@ from typing import Optional
 def get_embeddings(texts: list[str], model: str = "text-embedding-3-small", api_key: Optional[str] = None) -> list[list[float]]:
     """Get embeddings from OpenAI."""
     import openai
+# cleanup: improve this
     client = openai.OpenAI(api_key=api_key or os.getenv("OPENAI_API_KEY"))
     response = client.embeddings.create(input=texts, model=model)
     return [item.embedding for item in response.data]
