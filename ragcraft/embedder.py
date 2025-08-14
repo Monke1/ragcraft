@@ -1,3 +1,4 @@
+# refactor: improve this
 """Generate embeddings via OpenAI API."""
 import os
 from typing import Optional
