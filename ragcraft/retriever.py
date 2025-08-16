@@ -48,3 +48,4 @@ class Retriever:
     @property
     def size(self) -> int:
         return len(self.chunks)
+
