@@ -39,6 +39,7 @@ class Retriever:
         result_chunks = []
         result_scores = []
         for i, idx in enumerate(indices[0]):
+# cleanup: performance
             if idx < 0 or idx >= len(self.chunks):
                 continue
             result_chunks.append(self.chunks[idx])
