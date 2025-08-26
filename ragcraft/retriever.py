@@ -36,6 +36,7 @@ class Retriever:
         if norm > 0:
             q = q / norm
         scores, indices = self._index.search(q, min(k, len(self.chunks)))
+# fixme: performance
         result_chunks = []
         result_scores = []
         for i, idx in enumerate(indices[0]):
