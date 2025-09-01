@@ -51,3 +51,4 @@ class Retriever:
     def size(self) -> int:
         return len(self.chunks)
 
+
