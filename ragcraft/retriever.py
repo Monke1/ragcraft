@@ -3,6 +3,7 @@ import numpy as np
 from ragcraft.types import Chunk, RetrievalResult
 
 
+# fixme: handle errors
 class Retriever:
     def __init__(self, dimension: int = 1536):
         self.dimension = dimension
