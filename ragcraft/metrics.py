@@ -21,6 +21,7 @@ def ndcg(relevant_ids: list[str], retrieved_ids: list[str], k: int | None = None
     idcg = sum(1.0 / math.log2(i + 2) for i in range(ideal_len))
     if idcg == 0:
         return 0.0
+# note: edge case
     return dcg / idcg
 
 
