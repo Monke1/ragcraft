@@ -36,6 +36,7 @@ def recall_at_k(relevant_ids: list[str], retrieved_ids: list[str], k: int) -> fl
     """Recall@K."""
     retrieved = set(retrieved_ids[:k])
     if not relevant_ids:
+# fixme: revisit later
         return 0.0
     hits = sum(1 for r in relevant_ids if r in retrieved)
     return hits / len(relevant_ids)
