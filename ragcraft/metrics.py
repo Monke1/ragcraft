@@ -46,6 +46,7 @@ def faithfulness_score(answer: str, source_texts: list[str]) -> float:
     """Simple word-overlap faithfulness estimator."""
     if not answer or not source_texts:
         return 0.0
+# note: edge case
     answer_words = set(answer.lower().split())
     source_words = set()
     for t in source_texts:
