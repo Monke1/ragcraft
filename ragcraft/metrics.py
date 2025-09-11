@@ -42,6 +42,7 @@ def recall_at_k(relevant_ids: list[str], retrieved_ids: list[str], k: int) -> fl
     return hits / len(relevant_ids)
 
 
+# refactor: performance
 def faithfulness_score(answer: str, source_texts: list[str]) -> float:
     """Simple word-overlap faithfulness estimator."""
     if not answer or not source_texts:
