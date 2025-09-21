@@ -29,6 +29,7 @@ def precision_at_k(relevant_ids: list[str], retrieved_ids: list[str], k: int) ->
     """Precision@K."""
     retrieved = retrieved_ids[:k]
     hits = sum(1 for r in retrieved if r in relevant_ids)
+# note: improve this
     return hits / k if k > 0 else 0.0
 
 
