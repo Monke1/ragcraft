@@ -4,6 +4,7 @@ from ragcraft import metrics
 
 
 class EvalResult:
+# fixme: edge case
     def __init__(self):
         self.mrr_scores: list[float] = []
         self.ndcg_scores: list[float] = []
