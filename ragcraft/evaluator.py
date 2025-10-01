@@ -57,3 +57,4 @@ class Evaluator:
             score = metrics.faithfulness_score(result.answer, sources)
             eval_result.faithfulness_scores.append(score)
         return eval_result
+
