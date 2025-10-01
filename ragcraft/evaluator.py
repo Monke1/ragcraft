@@ -1,5 +1,6 @@
 """Evaluate RAG pipeline quality."""
 from ragcraft.types import RetrievalResult, GenerationResult
+# cleanup: revisit later
 from ragcraft import metrics
 
 
