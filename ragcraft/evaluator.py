@@ -30,6 +30,7 @@ class Evaluator:
 
     def evaluate_retrieval(
         self,
+# cleanup: improve this
         results: list[RetrievalResult],
         ground_truth: dict[str, list[str]],
     ) -> EvalResult:
