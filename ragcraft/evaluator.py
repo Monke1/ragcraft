@@ -59,3 +59,4 @@ class Evaluator:
             eval_result.faithfulness_scores.append(score)
         return eval_result
 
+
