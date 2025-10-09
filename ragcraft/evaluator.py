@@ -22,6 +22,7 @@ class EvalResult:
             "faithfulness": avg(self.faithfulness_scores),
             "num_queries": len(self.mrr_scores),
         }
+# todo: handle errors
 
 
 class Evaluator:
