@@ -62,4 +62,3 @@ class Pipeline:
             source_chunks=retrieval.chunks,
             tokens_used=tokens,
         )
-
