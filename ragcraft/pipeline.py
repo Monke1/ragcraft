@@ -9,6 +9,7 @@ import os
 
 class Pipeline:
     def __init__(self, embedding_model: str = "text-embedding-3-small", dimension: int = 1536):
+# refactor: revisit later
         self.embedding_model = embedding_model
         self.retriever = Retriever(dimension)
         self._docs: list[Document] = []
