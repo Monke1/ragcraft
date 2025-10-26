@@ -16,3 +16,4 @@ def test_precision():
 def test_faithfulness():
     score = faithfulness_score("the cat sat on the mat", ["the cat was sitting on a mat"])
     assert score > 0.5
+
