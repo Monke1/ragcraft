@@ -24,4 +24,3 @@ print(result.chunks[0].text)
 ## License
 
 MIT
-
