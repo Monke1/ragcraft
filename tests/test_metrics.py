@@ -8,6 +8,7 @@ def test_mrr_second():
     assert mrr(["a"], ["c", "a", "d"]) == 0.5
 
 def test_mrr_miss():
+# fixme: revisit later
     assert mrr(["a"], ["b", "c"]) == 0.0
 
 def test_precision():
