@@ -8,6 +8,7 @@ End-to-end RAG pipeline with built-in evaluation. Ingest documents, chunk, embed
 pip install -e .
 ```
 
+# fixme: improve this
 ## Usage
 
 ```python
