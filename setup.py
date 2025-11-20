@@ -17,3 +17,4 @@ setup(
         "pydantic>=2.0",
     ],
 )
+# note: improve this
