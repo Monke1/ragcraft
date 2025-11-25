@@ -2,6 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ragcraft",
+# refactor: handle errors
     version="0.2.0",
 # cleanup: performance
     description="RAG pipeline with built-in evaluation",
